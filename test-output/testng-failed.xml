@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="validateErrorMsg.ValidateErrorMSgOfMObNumField$ValidateErrorMessageOfMobNumField">
+      <class name="errorMessageValidationOfMobileNumberField.ValidateErrorMessageOfMobNumField">
         <methods>
-          <include name="loginToNeostox"/>
           <include name="closeBrowse"/>
+          <include name="loginToNeostox"/>
           <include name="browserLaunch"/>
         </methods>
-      </class> <!-- validateErrorMsg.ValidateErrorMSgOfMObNumField$ValidateErrorMessageOfMobNumField -->
+      </class> <!-- errorMessageValidationOfMobileNumberField.ValidateErrorMessageOfMobNumField -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

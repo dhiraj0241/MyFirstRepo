@@ -69,5 +69,6 @@ public class NeoStoxDashBoardPage
 		Reporter.log("getting AC Balance", true);
 		Reporter.log("Account balance is "+balance, true);
 		return balance;
+		//balance
 	}
 }
