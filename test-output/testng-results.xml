@@ -5,12 +5,12 @@
       <![CDATA[TC loginToNeostox is skipped, please have a look]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-02-03T18:46:05 IST" name="Default suite" finished-at="2023-02-03T18:46:29 IST" duration-ms="23680">
+  <suite started-at="2023-02-06T17:02:26 IST" name="Default suite" finished-at="2023-02-06T17:02:49 IST" duration-ms="23111">
     <groups>
     </groups>
-    <test started-at="2023-02-03T18:46:05 IST" name="Default test" finished-at="2023-02-03T18:46:29 IST" duration-ms="23680">
+    <test started-at="2023-02-06T17:02:26 IST" name="Default test" finished-at="2023-02-06T17:02:49 IST" duration-ms="23111">
       <class name="errorMessageValidationOfMobileNumberField.ValidateErrorMessageOfMobNumField">
-        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:errorMessageValidationOfMobileNumberField.ValidateErrorMessageOfMobNumField@1de5f259]" started-at="2023-02-03T18:46:05 IST" name="browserLaunch" finished-at="2023-02-03T18:46:29 IST" duration-ms="23546" status="FAIL">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:errorMessageValidationOfMobileNumberField.ValidateErrorMessageOfMobNumField@1de5f259]" started-at="2023-02-06T17:02:26 IST" name="browserLaunch" finished-at="2023-02-06T17:02:49 IST" duration-ms="22973" status="FAIL">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 107
@@ -75,7 +75,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunch -->
-        <test-method signature="loginToNeostox()[pri:0, instance:errorMessageValidationOfMobileNumberField.ValidateErrorMessageOfMobNumField@1de5f259]" started-at="2023-02-03T18:46:29 IST" name="loginToNeostox" finished-at="2023-02-03T18:46:29 IST" duration-ms="0" status="SKIP">
+        <test-method signature="loginToNeostox()[pri:0, instance:errorMessageValidationOfMobileNumberField.ValidateErrorMessageOfMobNumField@1de5f259]" started-at="2023-02-06T17:02:49 IST" name="loginToNeostox" finished-at="2023-02-06T17:02:49 IST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 107
@@ -143,7 +143,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- loginToNeostox -->
-        <test-method is-config="true" signature="closeBrowse()[pri:0, instance:errorMessageValidationOfMobileNumberField.ValidateErrorMessageOfMobNumField@1de5f259]" started-at="2023-02-03T18:46:29 IST" name="closeBrowse" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1675430189172" status="SKIP">
+        <test-method is-config="true" signature="closeBrowse()[pri:0, instance:errorMessageValidationOfMobileNumberField.ValidateErrorMessageOfMobNumField@1de5f259]" started-at="2023-02-06T17:02:49 IST" name="closeBrowse" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1675683169429" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowse -->
